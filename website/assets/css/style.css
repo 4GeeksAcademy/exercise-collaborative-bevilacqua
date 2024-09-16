@@ -1,3 +1,17 @@
 body{
-    background: #BDBDBD;
+    font-family: "Roboto", system-ui;
+}
+
+#firstHeading{
+    height: 700px;
+    padding: 6rem 8rem;
+    border: 5px solid red;
+}
+
+#firstHeading h1{
+    font-size:3rem;
+}
+
+#firstHeading p{
+    font-size: larger;
 }
