@@ -3,9 +3,7 @@ body{
 }
 
 #firstHeading{
-    height: 700px;
-    padding: 6rem 8rem;
-    border: 5px solid red;
+    padding: 3rem 4rem;
 }
 
 #firstHeading h1{
@@ -14,4 +12,14 @@ body{
 
 #firstHeading p{
     font-size: larger;
+}
+
+figure{
+    align-self: center;
+}
+
+@media screen and (min-width:800px){
+    #firstHeading{
+        padding: 6rem 8rem;
+    }
 }
