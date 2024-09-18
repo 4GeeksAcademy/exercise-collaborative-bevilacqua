@@ -1,5 +1,27 @@
-body {
-    background: #BDBDBD;
+body{
+    font-family: "Roboto", system-ui;
+}
+
+#firstHeading{
+    padding: 3rem 4rem;
+}
+
+#firstHeading h1{
+    font-size:3rem;
+}
+
+#firstHeading p{
+    font-size: larger;
+}
+
+figure{
+    align-self: center;
+}
+
+@media screen and (min-width:800px){
+    #firstHeading{
+        padding: 6rem 8rem;
+    }
 }
 
 .container-fluid {
